@@ -396,41 +396,6 @@ Artinya:
 - Akurasi klasifikasi mencapai 96%
 
 ---
-
-# Kelebihan Program
-
-- Menggunakan CNN yang cocok untuk klasifikasi gambar
-- Mendukung klasifikasi multi-kelas
-- Menggunakan preprocessing otomatis
-- Mampu mengenali pola gambar dengan baik
-- Menggunakan TensorFlow dan Keras modern
-
----
-
-# Kekurangan Program
-
-- Tidak menggunakan data augmentation tambahan
-- Belum menyimpan model
-- Belum menampilkan confusion matrix
-- Tidak ada fitur prediksi gambar manual
-- Epoch masih sedikit sehingga model bisa belum optimal
-
----
-
-# Pengembangan Selanjutnya
-
-Beberapa pengembangan yang dapat dilakukan:
-- Menambahkan data augmentation
-- Menyimpan model menggunakan `model.save()`
-- Menambahkan fitur upload gambar
-- Membuat GUI atau website
-- Menambahkan confusion matrix
-- Menambahkan grafik accuracy dan loss
-- Menggunakan transfer learning
-- Menambahkan fitur prediksi realtime
-
----
-
 # Kesimpulan
 
 Program ini berhasil mengimplementasikan Convolutional Neural Network (CNN) untuk klasifikasi gambar Rock Paper Scissors menggunakan TensorFlow dan Keras. Dengan memanfaatkan convolution layer dan pooling layer, model mampu mengenali pola gambar dan melakukan klasifikasi dengan cukup baik.
